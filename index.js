@@ -27,7 +27,7 @@ if (!fs.existsSync(uploadsDir)) {
 
 // CORS Configuration
 app.use(cors({
-    origin: "https://moonlit-palmier-a911f6.netlify.app", // frontend URL
+    origin: "https://dapper-travesseiro-1e3789.netlify.app", // frontend URL
     methods: ["GET", "POST", "PUT", "DELETE", "PATCH"],
     credentials: true,
     allowedHeaders: ["Content-Type", "Authorization"]
